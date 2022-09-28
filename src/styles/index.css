@@ -1,0 +1,125 @@
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justfiy-start {
+    justify-content: start;
+}
+
+.justfiy-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: white
+}
+
+.text-selected {
+    color: greenyellow
+}
+
+.text-link {
+    color: purple
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.p-2 {
+    padding: 4px;
+}
+
+.p-4 {
+    padding: 8px;
+}
+
+.py-4 {
+    padding: 8px 0;
+}
+
+.list-none {
+    list-style-type: none;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bg-main {
+    background-color: #333;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.m-2 {
+    margin: 4px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-x-auto {
+    overflow-x: auto;
+}
+
+.overflow-y-auto {
+    overflow-y: auto;
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+    overflow-y: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #cccccc;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
